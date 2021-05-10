@@ -43,3 +43,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+#office {
+  width: 45%;
+}
