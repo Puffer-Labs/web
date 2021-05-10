@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #443f3f;
+}
+
+.newsletter input {
+  border-radius: 5px;
+  padding: 1em;
+  border: 1px solid #e3e0e0;
+  width: 200px;
+}
+
+.newsletter button {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #bd3e39;
+  border: 1px solid #d1423d;
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.newsletter button:hover {
+  cursor: pointer;
+}
+
+.newsletter .fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#alex {
+  width: 50%;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
