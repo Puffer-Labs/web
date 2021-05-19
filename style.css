@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("./cream.ttf");
 
 body {
   font-family: "Poppins", sans-serif;
   color: #443f3f;
+}
+
+h1 {
+  font-family: "cream", sans-serif;
+  color: #ef5757;
 }
 
 .newsletter input {
@@ -15,7 +21,7 @@ body {
 .newsletter button {
   padding: 1em;
   border-radius: 5px;
-  background-color: #bd3e39;
+  background-color: #ef5757;
   border: 1px solid #d1423d;
   color: white;
   margin-top: 10px;
