@@ -17,7 +17,11 @@ h1 {
   color: #ef5757;
 }
 
-body center {
+a {
+  color: #ef5757;
+}
+
+body center.main-page {
   height: 100vh;
 }
 
@@ -81,4 +85,44 @@ footer {
 #logo {
   margin-top: 16px;
   width: 150px;
+}
+
+#headshot {
+  width: 50%;
+  border-radius: 25px;
+  margin-right: 1em;
+}
+
+.container {
+  margin: 0 200px;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text {
+  max-width: 800px;
+}
+
+article p {
+  margin-bottom: 16px;
+}
+
+.ceo {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+small {
+  color: #777676;
+}
+
+center a {
+  text-decoration: none;
+}
+
+#signature {
+  width: 50%;
 }
