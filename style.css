@@ -25,6 +25,24 @@ body center.main-page {
   height: 100vh;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+.nav a {
+  color: #ef5757;
+  margin: 0 1em;
+  text-decoration: underline;
+}
+
+.nav a:hover {
+  text-decoration: dotted #ed4545;
+}
+
 footer {
   height: 15%;
   background-color: #e4e4e4;
@@ -88,16 +106,17 @@ footer {
 }
 
 #headshot {
-  width: 50%;
+  width: 250px;
   border-radius: 25px;
   margin-right: 1em;
 }
 
 .container {
+  max-width: 992px;
   margin: 0 200px;
   padding: 1em;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 .text {
@@ -125,4 +144,46 @@ center a {
 
 #signature {
   width: 50%;
+}
+
+.group {
+  margin-top: 1em;
+  text-align: left;
+  max-width: 992px;
+  padding: 1em;
+}
+.group h1 {
+  border-bottom: 1px solid #e3e0e0;
+}
+
+.group h2 {
+  display: flex;
+  align-items: center;
+}
+
+.group h2 a {
+  color: #443f3f;
+}
+
+.group h2 a:hover {
+  text-decoration: underline #ed4545;
+  text-underline-offset: 5px;
+}
+
+.group ul {
+  list-style-type: none;
+  padding: 1em 0;
+}
+
+.group ul li {
+  margin-bottom: 1em;
+}
+
+.group h2 img {
+  width: 30px;
+  margin-right: 0.5rem
+}
+
+.group h2 small {
+  font-size: 1rem;
 }
